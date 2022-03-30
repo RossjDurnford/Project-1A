@@ -1,0 +1,42 @@
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_960_720.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
+    position:top;
+
+
+}
+h1{
+    color:white;
+    font-size:3rem;
+
+}
+a{
+    color:white;
+    font-size:30px;
+    padding:2rem;
+    text-decoration: none;
+}
+h2{
+    color:white;
+    font-size:4rem;
+    height:400px;
+    opacity:50%;
+}
+#burn{
+    
+}
+footer{
+    background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
+    color:white;
+    font-size:2rem;
+
+}
+#bel{
+    color:rgba(9, 86, 185, 0.938);
+}
