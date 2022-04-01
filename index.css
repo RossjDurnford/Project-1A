@@ -1,16 +1,26 @@
-body{
+html{
     background-image:url(https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+
+body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 nav{
     background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
-    position:top;
-
-
+    opacity:50%;
+    top:0;
+    max-width:100%;
 }
+
 h1{
     color:white;
     font-size:3rem;
@@ -18,25 +28,109 @@ h1{
 }
 a{
     color:white;
-    font-size:30px;
-    padding:2rem;
-    text-decoration: none;
+    font-size:5%;
+    padding:0.5rem;
+    text-decoration:none;
+    max-width:75%;
+    opacity:100%;
 }
 h2{
-    color:white;
-    font-size:4rem;
-    height:400px;
-    opacity:50%;
-}
-#burn{
+    color:rgba(9, 86, 185, 0.938);
+    font-size:2rem;
+    text-decoration:underline red; 
     
 }
+
 footer{
     background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
     color:white;
     font-size:2rem;
+    opacity:50%;
+    overflow:hidden;
+    bottom:0;
+    position:absolute;
+    width:100%;
+
+    
 
 }
 #bel{
-    color:rgba(9, 86, 185, 0.938);
+    color:white;
+}
+p{
+    color:white;
+    opacity:50%;
+}
+#aboutp{
+    background-color: rgba(0, 0, 0,0.6);
+    border-radius: 15px;
+
+
+}
+@media screen and (max-width:500px){
+    #aboutp{
+        max-width:100%;
+    }
+    
+}
+@media screen and (min-width:500px){
+    #aboutp{
+        max-width:50%;
+    }
+}
+.form1{
+    color:white;
+    display:inline-block;
+    width: 100px;
+}
+#but1{
+    background-color: white;
+    color:blue;
+}
+
+@media screen and (max-width:298px){
+    footer{
+        display:none;
+    }
+}
+@media screen and (max-height:655px){
+    a{
+        font-size:17px;
+    }
+}
+@media screen and (max-height:851px){
+    a{
+        font-size:17px;
+    }
+}
+@media screen and (max-height:896px){
+    a{
+        font-size:17px;
+    }
+}
+@media screen and (max-height:915px){
+    a{
+        font-size:17px;
+    }
+}
+@media screen and (max-height:1180px){
+    a{ font-size:24px}
+    p{font-size: 24px;}
+}
+@media screen and (max-height:1368px){
+    a{ font-size:24px}
+    p{font-size: 24px;}
+}
+@media screen and (max-height:720px){
+    p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-height:653px){
+    a{
+        font-size: 10px;
+    }
+    p{
+        font-size: 17px;
+    }
 }
