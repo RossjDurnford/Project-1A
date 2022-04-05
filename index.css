@@ -36,9 +36,16 @@ a{
 }
 h2{
     color:rgba(9, 86, 185, 0.938);
-    font-size:2rem;
+    font-size:50px;
     text-decoration:underline red; 
     
+}
+#burn{
+    background-color:black;
+    opacity:75%;
+}
+span{
+    opacity:100;
 }
 
 footer{
@@ -133,4 +140,7 @@ p{
     p{
         font-size: 17px;
     }
+}
+#homeh2{
+    padding-top:10%;
 }
