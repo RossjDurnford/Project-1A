@@ -38,6 +38,7 @@ The reason for multiple changes is because when the page was viewed at certain h
     background-position: center;
     height:100%;
     width:100%;. This was added and fixed the issue. additionally this stopped the whitespace at the bottom of the page.
+    * Couldnt get the nav links to underline when selected and the page had loaded, Had to add a class of page-selected, and in the CSS file apply a text decoration of underline with a color of white  
 
 ## Deploymment
 
