@@ -76,7 +76,7 @@ The colour scheme for this project is largely centered around the background col
 
 * Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
 Error Corrected. Title was missing.
-
+![error check](https://user-images.githubusercontent.com/101630755/162987524-26703efd-83f3-4244-9ba1-9084aefab483.png)
 ## Bugs and Fixes
 
 * Background cover didnt work,   -webkit-background-size:cover;
@@ -117,7 +117,7 @@ In order to clone this project take the following steps:
 * CSS - This is for the styling of the website.
 * GitPod - This is to Deploy the Website.
 * GitHub - This is to host and edit the website. 
-
+* Screenshot Snipping tool, Downloaded from Microsoft store.
 ## Credits
 * Align Form elements: https://www.youtube.com/watch?v=N8ZMzN40q0g.
 * Background image fixing: https://www.youtube.com/watch?v=jNXrg0_KFBQ
