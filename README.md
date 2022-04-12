@@ -69,7 +69,8 @@ The colour scheme for this project is largely centered around the background col
 
 * This page features the opening hours of the gym which are stated in a 12 hour format.
 
-INSERT IMAGE HERE
+![ScreenShot_12_04_2022_15_32_59](https://user-images.githubusercontent.com/101630755/162986711-e5a7c0e3-375a-44b8-809b-d5525f9a3084.png)
+
 
 ## Testing
 
