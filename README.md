@@ -49,22 +49,21 @@ The colour scheme for this project is largely centered around the background col
 ### Nav menu
 * Nav menu uses a linear gradient with opacity set to 50%, the currently active link will stay underlined after the page has been loaded in so the user knows which page they are currently on.
 * Nav menu is also responsive in regards to screen widths and heights.
+![ScreenShot_12_04_2022_15_16_08](https://user-images.githubusercontent.com/101630755/162986176-659d186a-e6dc-4d8f-baab-89432bd1ce8b.png)
+
 ### Media Queries
 * Multiple Media queries have been set to apply when accessed on each different device. changes for responsiveness occur at max width of 298px, 500px and 357px. Min width of 500px. Changes are regarding paragraph size and h2 element size, additionally with the width the size of my div on each page will vary depeinding on the width.
 * Multiple Media queries for height have been applied due to certain elements overflowing on the pages. these height changes occur at, 655px,851px,896px,915px,1180px,1368px and 740px. Changes are regarding Font size of paragraphs and H2 elements. additionally smaller screen heights remove the footer so text can fill the space.
 ### About us
 
 * This page features a paragraph which features the companies mission and their mission statement.
-
-![ScreenShot_12_04_2022_15_17_18](https://user-images.githubusercontent.com/101630755/162984929-9356c382-28f4-4a39-880e-e4650d8e3ab6.png)
-
-
+![ScreenShot_12_04_2022_15_18_35](https://user-images.githubusercontent.com/101630755/162985873-7e8940ae-151a-4946-bcde-c9474911fdb4.png)
 ### Contact us
 
 * This page features the address of the gym the website has been created for.
 * This page features a form element so if a potential customer or and existing customer has any questions then they can submit a ticket.
 
-INSERT IMAGE HERE
+![ScreenShot_12_04_2022_15_22_40](https://user-images.githubusercontent.com/101630755/162986025-3b73c945-9caf-44f9-8aa0-a989bef1c0c9.png)
 
 ### Opening Hours
 
