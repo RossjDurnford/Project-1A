@@ -56,7 +56,8 @@ The colour scheme for this project is largely centered around the background col
 
 * This page features a paragraph which features the companies mission and their mission statement.
 
-INSERT IMAGE HERE
+![ScreenShot_12_04_2022_15_17_18](https://user-images.githubusercontent.com/101630755/162984929-9356c382-28f4-4a39-880e-e4650d8e3ab6.png)
+
 
 ### Contact us
 
