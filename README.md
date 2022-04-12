@@ -3,11 +3,39 @@ This is a website for a local gym based in West Earlham, Norwich.
 The website will serve potential existsing and new customers living within the local area 
 who are interested in getting in shape. The main aim of this website it to design a responsive website using HTML and CSS together to convey a companies message.
 
-## Testing
+# Table Of Content
+<!-- TOC -->
 
-* Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
-Error Corrected. Title was missing.
-## Color Scheme
+- [Massive Gym - Project 1](#massive-gym---project-1)
+- [Table Of Content](#table-of-content)
+- [User Experience](#user-experience)
+    - [Design Choices](#design-choices)
+        - [Fonts](#fonts)
+        - [Color Scheme](#color-scheme)
+    - [Features](#features)
+        - [Nav menu](#nav-menu)
+        - [Media Queries](#media-queries)
+        - [About us](#about-us)
+        - [Contact us](#contact-us)
+        - [Opening Hours](#opening-hours)
+    - [Testing](#testing)
+    - [Bugs and Fixes](#bugs-and-fixes)
+    - [Deploymment](#deploymment)
+    - [Cloning the Project](#cloning-the-project)
+    - [Technologies used](#technologies-used)
+    - [Credits](#credits)
+
+<!-- /TOC -->
+
+# User Experience
+
+## Design Choices
+
+### Fonts
+
+The fonts used for this project are Segoe UI', Tahoma, Geneva, Verdana, sans-serif. This was used for all aspects of the page to remain consistent with the theme set for the pages and the design across multiple pages.
+
+### Color Scheme
 
 The colour scheme for this project is largely centered around the background colours and trying to fit in with that as well as being noticeable. The colours used are as follows:
 * H1,P,A. White
@@ -15,20 +43,38 @@ The colour scheme for this project is largely centered around the background col
 * H2 All other pages, rgba(9, 86, 185, 0.938)
 * Nav and Footer, Linear Gradient, rgba(9, 86, 185, 0.938) into Black
 
-## CSS Rules
+## Features
 
-* Nav and Footer uses linear gradient with opacity set to 50%.
-*  font family is'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, applied to body element.
-* Multiple Media queries have been set to apply when accessed on each different device. changes for responsiveness occur at max width of 298px, 500px. Min width of 500px. The rest of the change are applied with a max height.
+* This website features 4 pages, home.html (homepage), about.html(about us), contact.html(contact us) and open.html(Opening Hours). The website is designed to be basic and simplistic so that the user can easily find what they are looking for and access information in the most simplistic way possible.
+### Nav menu
+* Nav menu uses a linear gradient with opacity set to 50%, the currently active link will stay underlined after the page has been loaded in so the user knows which page they are currently on.
+* Nav menu is also responsive in regards to screen widths and heights.
+### Media Queries
+* Multiple Media queries have been set to apply when accessed on each different device. changes for responsiveness occur at max width of 298px, 500px and 357px. Min width of 500px. Changes are regarding paragraph size and h2 element size, additionally with the width the size of my div on each page will vary depeinding on the width.
+* Multiple Media queries for height have been applied due to certain elements overflowing on the pages. these height changes occur at, 655px,851px,896px,915px,1180px,1368px and 740px. Changes are regarding Font size of paragraphs and H2 elements. additionally smaller screen heights remove the footer so text can fill the space.
+### About us
 
-### Max height changes
+* This page features a paragraph which features the companies mission and their mission statement.
 
-The reason for multiple changes is because when the page was viewed at certain heights and widths the p and a elements were not displaying correctly due to the height.
+INSERT IMAGE HERE
 
-* Screen size: 915px - a font size is 17px
-* Screen size: 1368px - p + a font size is 24px
-* Screen size: 653px - a font size is 10px, p font size is 17px
-* Screen size: 720px - p + a font size is 17 px
+### Contact us
+
+* This page features the address of the gym the website has been created for.
+* This page features a form element so if a potential customer or and existing customer has any questions then they can submit a ticket.
+
+INSERT IMAGE HERE
+
+### Opening Hours
+
+* This page features the opening hours of the gym which are stated in a 12 hour format.
+
+INSERT IMAGE HERE
+
+## Testing
+
+* Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
+Error Corrected. Title was missing.
 
 ## Bugs and Fixes
 
@@ -38,7 +84,7 @@ The reason for multiple changes is because when the page was viewed at certain h
     background-position: center;
     height:100%;
     width:100%;. This was added and fixed the issue. additionally this stopped the whitespace at the bottom of the page.
-    * Couldnt get the nav links to underline when selected and the page had loaded, Had to add a class of page-selected, and in the CSS file apply a text decoration of underline with a color of white  
+ * Couldnt get the nav links to underline when selected and the page had loaded, Had to add a class of page-selected, and in the CSS file apply a text decoration of underline with a color of white  
 
 ## Deploymment
 
@@ -53,6 +99,23 @@ To deploy this project the steps that i took are as follows:
 * Once on the settings tab click on pages.
 Once on the pages tab i changed the branch to main and refreshed the page.
 * Once the webpage was refreshed my page was then published with a link.
+
+## Cloning the Project
+
+In order to clone this project take the following steps:
+ * Just under the Repository name click on the Code tab.
+ * Copy the link that is underneath the clone heading.
+ * Open GitBash in your IDE.
+ * Change your current directory to where you want the clone to be.
+ * Type git clone, and then paste the URL copied you have copied earlier.
+ * Press Enter to create your clone.
+
+## Technologies used
+
+* HTML - This is for the structure of the website.
+* CSS - This is for the styling of the website.
+* GitPod - This is to Deploy the Website.
+* GitHub - This is to host and edit the website. 
 
 ## Credits
 * Align Form elements: https://www.youtube.com/watch?v=N8ZMzN40q0g.
