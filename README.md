@@ -49,33 +49,34 @@ The colour scheme for this project is largely centered around the background col
 ### Nav menu
 * Nav menu uses a linear gradient with opacity set to 50%, the currently active link will stay underlined after the page has been loaded in so the user knows which page they are currently on.
 * Nav menu is also responsive in regards to screen widths and heights.
+![ScreenShot_12_04_2022_15_16_08](https://user-images.githubusercontent.com/101630755/162986176-659d186a-e6dc-4d8f-baab-89432bd1ce8b.png)
+
 ### Media Queries
 * Multiple Media queries have been set to apply when accessed on each different device. changes for responsiveness occur at max width of 298px, 500px and 357px. Min width of 500px. Changes are regarding paragraph size and h2 element size, additionally with the width the size of my div on each page will vary depeinding on the width.
 * Multiple Media queries for height have been applied due to certain elements overflowing on the pages. these height changes occur at, 655px,851px,896px,915px,1180px,1368px and 740px. Changes are regarding Font size of paragraphs and H2 elements. additionally smaller screen heights remove the footer so text can fill the space.
 ### About us
 
 * This page features a paragraph which features the companies mission and their mission statement.
-
-INSERT IMAGE HERE
-
+![ScreenShot_12_04_2022_15_18_35](https://user-images.githubusercontent.com/101630755/162985873-7e8940ae-151a-4946-bcde-c9474911fdb4.png)
 ### Contact us
 
 * This page features the address of the gym the website has been created for.
 * This page features a form element so if a potential customer or and existing customer has any questions then they can submit a ticket.
 
-INSERT IMAGE HERE
+![ScreenShot_12_04_2022_15_22_40](https://user-images.githubusercontent.com/101630755/162986025-3b73c945-9caf-44f9-8aa0-a989bef1c0c9.png)
 
 ### Opening Hours
 
 * This page features the opening hours of the gym which are stated in a 12 hour format.
 
-INSERT IMAGE HERE
+![ScreenShot_12_04_2022_15_32_59](https://user-images.githubusercontent.com/101630755/162986711-e5a7c0e3-375a-44b8-809b-d5525f9a3084.png)
+
 
 ## Testing
 
 * Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
 Error Corrected. Title was missing.
-
+![error check](https://user-images.githubusercontent.com/101630755/162987524-26703efd-83f3-4244-9ba1-9084aefab483.png)
 ## Bugs and Fixes
 
 * Background cover didnt work,   -webkit-background-size:cover;
@@ -116,7 +117,7 @@ In order to clone this project take the following steps:
 * CSS - This is for the styling of the website.
 * GitPod - This is to Deploy the Website.
 * GitHub - This is to host and edit the website. 
-
+* Screenshot Snipping tool, Downloaded from Microsoft store.
 ## Credits
 * Align Form elements: https://www.youtube.com/watch?v=N8ZMzN40q0g.
 * Background image fixing: https://www.youtube.com/watch?v=jNXrg0_KFBQ
