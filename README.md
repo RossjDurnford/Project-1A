@@ -1,7 +1,10 @@
 # Massive Gym - Project 1
+
 This is a website for a local gym based in West Earlham, Norwich. 
 The website will serve potential existsing and new customers living within the local area 
 who are interested in getting in shape. The main aim of this website it to design a responsive website using HTML and CSS together to convey a companies message.
+
+![Mockup](https://user-images.githubusercontent.com/101630755/163556707-5bdf0196-7582-4b0b-977b-249dbd77d515.png)
 
 # Table Of Content
 <!-- TOC -->
@@ -19,11 +22,14 @@ who are interested in getting in shape. The main aim of this website it to desig
         - [Contact us](#contact-us)
         - [Opening Hours](#opening-hours)
     - [Testing](#testing)
+        - [W3 Validator](#w3-validator)
+        - [Lighthouse test](#lighthouse-test)
     - [Bugs and Fixes](#bugs-and-fixes)
     - [Deploymment](#deploymment)
     - [Cloning the Project](#cloning-the-project)
     - [Technologies used](#technologies-used)
     - [Credits](#credits)
+    - [Acknowledgements](#acknowledgements)
 
 <!-- /TOC -->
 
@@ -46,12 +52,15 @@ The colour scheme for this project is largely centered around the background col
 ## Features
 
 * This website features 4 pages, home.html (homepage), about.html(about us), contact.html(contact us) and open.html(Opening Hours). The website is designed to be basic and simplistic so that the user can easily find what they are looking for and access information in the most simplistic way possible.
+
 ### Nav menu
+
 * Nav menu uses a linear gradient with opacity set to 50%, the currently active link will stay underlined after the page has been loaded in so the user knows which page they are currently on.
 * Nav menu is also responsive in regards to screen widths and heights.
 ![ScreenShot_12_04_2022_15_16_08](https://user-images.githubusercontent.com/101630755/162986176-659d186a-e6dc-4d8f-baab-89432bd1ce8b.png)
 
 ### Media Queries
+
 * Multiple Media queries have been set to apply when accessed on each different device. changes for responsiveness occur at max width of 298px, 500px and 357px. Min width of 500px. Changes are regarding paragraph size and h2 element size, additionally with the width the size of my div on each page will vary depeinding on the width.
 * Multiple Media queries for height have been applied due to certain elements overflowing on the pages. these height changes occur at, 655px,851px,896px,915px,1180px,1368px and 740px. Changes are regarding Font size of paragraphs and H2 elements. additionally smaller screen heights remove the footer so text can fill the space.
 ### About us
@@ -71,12 +80,22 @@ The colour scheme for this project is largely centered around the background col
 
 ![ScreenShot_12_04_2022_15_32_59](https://user-images.githubusercontent.com/101630755/162986711-e5a7c0e3-375a-44b8-809b-d5525f9a3084.png)
 
-
 ## Testing
+
+### W3 Validator
 
 * Tested on W3 validator one error url https://validator.w3.org/nu/?doc=https%3A%2F%2Frossjdurnford.github.io%2FProject-1A%2F. 
 Error Corrected. Title was missing.
 ![error check](https://user-images.githubusercontent.com/101630755/162987524-26703efd-83f3-4244-9ba1-9084aefab483.png)
+### Lighthouse test
+
+This page was also tested using https://www.webpagetest.org/lighthouse. This page measures the following;
+* Performance - How fast the page loads up content.
+* Accessibility - Does the site meet the needs of multiple users.
+* Best Practices - Site is in line with industry best practices.
+* SEO - Site is optimised for search engine results.
+![lighthouse](https://user-images.githubusercontent.com/101630755/163369928-7005a992-959f-4711-b08e-578727ddbac6.png)
+
 ## Bugs and Fixes
 
 * Background cover didnt work,   -webkit-background-size:cover;
@@ -118,6 +137,15 @@ In order to clone this project take the following steps:
 * GitPod - This is to Deploy the Website.
 * GitHub - This is to host and edit the website. 
 * Screenshot Snipping tool, Downloaded from Microsoft store.
+
 ## Credits
+
 * Align Form elements: https://www.youtube.com/watch?v=N8ZMzN40q0g.
 * Background image fixing: https://www.youtube.com/watch?v=jNXrg0_KFBQ
+* https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_960_720.jpg. Background image was sourced from here.
+ 
+## Acknowledgements
+
+* Code Institute Diploma in Software Development (E-commerce Applications).
+* Code Institute Tutoring team.
+* Precious Ijege - Guidance. 
