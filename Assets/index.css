@@ -26,7 +26,7 @@ h1{
     color:white;
     font-size:2rem;
 }
-/*nave menu link style*/
+/*nav menu link style*/
 a{
     color:white;
     font-size:5%;
@@ -192,4 +192,5 @@ nav a:active{
 .page-selected{
     text-decoration: underline;
 }
+
 
