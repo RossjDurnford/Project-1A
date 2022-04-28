@@ -8,13 +8,20 @@ html{
     background-position: center;
     height:100%;
     width:100%;
-    overflow:hidden;
 }
+
 /*Body font*/
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 /*nav style*/
 }
+main {
+    flex-grow: 1;
+   }
+
 nav{
     background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
     opacity:50%;
@@ -26,7 +33,9 @@ h1{
     color:white;
     font-size:2rem;
 }
+
 /*nav menu link style*/
+
 a{
     color:white;
     font-size:5%;
@@ -35,54 +44,69 @@ a{
     max-width:75%;
     opacity:100%;
 }
+
 /*all H2 elements style*/
+
 h2{
     color:rgba(9, 86, 185, 0.938);
     font-size:50px;
     text-decoration:underline red; 
     
 }
+
 #burn{
     background-color:black;
     opacity:75%;
 }
+
 /*footer styling*/
+
 footer{
     background:-webkit-linear-gradient(rgba(9, 86, 185, 0.938),black);
     color:white;
     font-size:2rem;
     opacity:50%;
-    overflow:hidden;
-    bottom:0;
-    position:absolute;
-    width:100%;
-    
-}
+    }
+
 #bel{
     color:white;
 }
+
 /*all paragraph elements*/
+
 p{
     color:white;
     opacity:75%;
 }
+
+#findp{
+    font-size: 20px;
+    color:white;
+    background-color:black;
+    opacity:75%;
+}
+
 /*about us page paragraph*/
+
 #aboutp{
     background-color: rgba(0, 0, 0,0.8);
     border-radius: 15px;
 }
+
 /*Media Query, Multiple widths and heights*/
+
 @media screen and (max-width:500px){
     #aboutp{
         max-width:100%;
     }
-    
 }
+
 @media screen and (min-width:500px){
     #aboutp{
         max-width:50%;
     }
 }
+
 @media screen and (max-width:450px){
     h1{
         font-size:30px;
@@ -97,40 +121,48 @@ p{
         font-size:25px;
     }
 }
+
 @media screen and (max-width:280px){
     footer{
         display:hidden;
     }
 }
+
 @media screen and (max-height:655px){
     a{
         font-size:17px;
     }
 }
+
 @media screen and (max-height:851px){
     a{
         font-size:17px;
     }
 }
+
 @media screen and (max-height:896px){
     a{
         font-size:17px;
     }
 }
+
 @media screen and (max-height:915px){
     a{
         font-size:17px;
     }
 }
+
 @media screen and (max-height:1180px){
     a{ font-size:24px}
     p{font-size: 24px;}
 }
+
 @media screen and (max-height:1368px){
     a{ font-size:24px}
     p{font-size: 24px;}
     
 }
+
 @media screen and (max-height:740px){
     p{
         font-size: 14px;
@@ -139,8 +171,8 @@ p{
 
         text-align: center;
     }
-    
 }
+
 @media screen and (max-height:653px){
     a{
         font-size: 10px;
@@ -149,40 +181,50 @@ p{
         font-size: 17px;
     }
 }
+
 @media screen and (max-width:375px){
     #adr{
         font-size:15px;
     }
 }
+
 /*form styling*/
+
 .form1{
     color:white;
     display:inline-block;
     width: 100px;
 }
+
 #but1{
     background-color: white;
     color:blue;
 }
+
 #contact{
     background-color:black;
     opacity:75%;
 }
+
 legend{
     color:white;
 }
+
 fieldset{
     width:30%;
     border:solid 3px rgba(9, 86, 185, 0.938);
     border-radius:6px;
 
 }
+
 input{
     border:solid 1px rgba(9, 86, 185, 0.938);
 }
+
 #icn{
     float:right;
 }
+
 /*Nav menu underline when link is active, and hover class*/
 nav a:hover,
 nav a:active{
@@ -192,5 +234,7 @@ nav a:active{
 .page-selected{
     text-decoration: underline;
 }
+
+
 
 
