@@ -27,6 +27,7 @@ Link to the deployed site. https://8000-rossjdurnford-project1a-rwbj31z9ycl.ws-e
     - [Lighthouse test](#lighthouse-test)
     - [CSS Validation](#css-validation)
     - [Compatability Test](#compatability-test)
+    - [Responsiveness Test](#responsiveness-test)
 - [Bugs and Fixes](#bugs-and-fixes)
 - [Deploymment](#deploymment)
 - [Cloning the Project](#cloning-the-project)
@@ -122,6 +123,13 @@ The first image is the Explorer test.
 The second Image is the Chrome test.
 
 ![ScreenShot_12_04_2022_15_17_18](https://user-images.githubusercontent.com/101630755/165274765-2d6cd3d6-8290-4bee-b02c-1bdb2e1b453b.png)
+
+## Responsiveness Test
+
+I have conducted a responsiveness test on this project using the developer tools in google chrome for every device type that is available within the Chrome Dev tools. During the process some adjustments had to be made to media queries, however after making these changes the website has responded well and the appearance of the website on multiple devices would be considered as acceptable. Additionally no features have been removed during this time. Further too this all Links and images are fully working on every device however on some mobiles in future a hamburger menu may be more applicable.
+
+
+
 
 
 # Bugs and Fixes
